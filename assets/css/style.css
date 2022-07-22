@@ -89,9 +89,31 @@ button {
 }
 
 header {
-   padding: 20px;
-   display: flex;
-   align-items: center;
-   gap: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
+#footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#footer-grid > .footer {
+  min-height: 320px;
+  color: grey;
+}
+
+.footer h2,
+.footer a:hover {
+  color: black;
+}
+
+.footer a {
+  color: grey;
+  border-bottom: 1px solid grey;
+  display: block;
+  text-decoration: none;
+  padding: 10px 0px;
+}
