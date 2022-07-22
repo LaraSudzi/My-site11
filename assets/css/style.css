@@ -1,0 +1,91 @@
+
+ #main-image {
+    min-height: 350px;
+    background-image: url(../image/pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;   
+  }
+
+  #sections-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #sections-grid > .section {
+    min-height: 150px;
+  }
+
+  #products-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  #products-grid > .product {
+    min-height: 320px;
+  }
+
+  
+.clock{
+    background-image: url(../image/pic2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;   
+}
+
+.belt{
+    background-image: url(../image/pic3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%; 
+}
+
+.glove{
+    background-image: url(../image/pic4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%; 
+}
+
+.pic {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.pad {
+    font-size: 35px;
+}
+
+button {
+    width: 100%;
+    background: black;
+    border: none;
+    color:  white;
+    padding: 12px 16px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 25px;
+    align-items: baseline;
+}
+
+.btn {
+padding: 20px 15px 30px;
+}
+
+#call{
+   text-transform: uppercase;
+   height: 200px;
+}
+  
