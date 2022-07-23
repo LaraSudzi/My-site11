@@ -6,6 +6,7 @@
   background-size: cover;
   width: 100%;
   height: 100%;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 #sections-grid {
@@ -15,6 +16,7 @@
 
 #sections-grid > .section {
   min-height: 150px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 #products-grid {
@@ -105,9 +107,10 @@ header {
   color: grey;
 }
 
-.footer h2,
+.footer h3,
 .footer a:hover {
   color: black;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .footer a {
@@ -116,4 +119,10 @@ header {
   display: block;
   text-decoration: none;
   padding: 10px 0px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+.container{
+  font-family: 'Nanum Gothic', sans-serif;
 }
